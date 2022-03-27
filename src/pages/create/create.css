@@ -1,0 +1,12 @@
+.inputs {
+  background: var(--bgSecondary) !important;
+  margin-bottom: 20px;
+  border: none !important;
+  color: var(--fontPrimary) !important;
+  padding: 15px 15px !important;
+}
+.inputs::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--fontSecondary) !important;
+  opacity: 1; /* Firefox */
+}

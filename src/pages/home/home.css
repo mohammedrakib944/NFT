@@ -1,0 +1,24 @@
+.Custom-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+.NFT-title {
+  /* color: var(--fontSecondary); */
+}
+@media only screen and (max-width: 1134px) {
+  .Custom-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Custom-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 548px) {
+  .Custom-row {
+    grid-gap: 5px;
+  }
+}
